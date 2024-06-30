@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en">
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome to mvillem2_module4’s documentation! &mdash; mvillem2_module4 1.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            mvillem2_module4
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <!-- Local TOC -->
+              <div class="local-toc"><ul>
+<li><a class="reference internal" href="#">Welcome to mvillem2_module4’s documentation!</a></li>
+<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
+</ul>
+</div>
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">mvillem2_module4</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Welcome to mvillem2_module4’s documentation!</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-order">
+<span id="welcome-to-mvillem2-module4-s-documentation"></span><h1>Welcome to mvillem2_module4’s documentation!<a class="headerlink" href="#module-order" title="Permalink to this heading"></a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="order.Order">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">order.</span></span><span class="sig-name descname"><span class="pre">Order</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dateTime</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">customerID</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">orderID</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#order.Order" title="Permalink to this definition"></a></dt>
+<dd><p>Order module</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="order.Order.input_pizza">
+<span class="sig-name descname"><span class="pre">input_pizza</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">newPizza</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#order.Order.input_pizza" title="Permalink to this definition"></a></dt>
+<dd><p>input_pizza - Inputs a Pizza class into the current order and updates the cost of the order</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>self</strong> (<a class="reference internal" href="#order.Order" title="order.Order"><em>Order</em></a>) – Handle for self in Order class</p></li>
+<li><p><strong>newPizza</strong> (<a class="reference internal" href="#pizza.Pizza" title="pizza.Pizza"><em>Pizza</em></a>) – New pizza that will be added to order</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>N/A</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Null</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="order.Order.order_paid">
+<span class="sig-name descname"><span class="pre">order_paid</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#order.Order.order_paid" title="Permalink to this definition"></a></dt>
+<dd><p>order_paid - Acknoledges payment from card vendor and returns Boolean value</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>self</strong> (<a class="reference internal" href="#order.Order" title="order.Order"><em>Order</em></a>) – Handle for self in Order class</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>N/A</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Null</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-pizza"></span><dl class="py class">
+<dt class="sig sig-object py" id="pizza.Pizza">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pizza.</span></span><span class="sig-name descname"><span class="pre">Pizza</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">crust</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sauces</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cheese</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">toppings</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pizza.Pizza" title="Permalink to this definition"></a></dt>
+<dd><p>Pizza module</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="pizza.Pizza.crustCost">
+<span class="sig-name descname"><span class="pre">crustCost</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pizza.Pizza.crustCost" title="Permalink to this definition"></a></dt>
+<dd><p>crustCost - Returns the cost of the selected crust</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>self</strong> (<a class="reference internal" href="#pizza.Pizza" title="pizza.Pizza"><em>Pizza</em></a>) – self Handle for object</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cost of crust</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pizza.Pizza.pizzaCost">
+<span class="sig-name descname"><span class="pre">pizzaCost</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pizza.Pizza.pizzaCost" title="Permalink to this definition"></a></dt>
+<dd><p>pizzaCost - Returns the cost of the pizza given the selected configuration</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>self</strong> (<a class="reference internal" href="#pizza.Pizza" title="pizza.Pizza"><em>Pizza</em></a>) – self Handle for object</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cost of pizza</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pizza.Pizza.sauceCost">
+<span class="sig-name descname"><span class="pre">sauceCost</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pizza.Pizza.sauceCost" title="Permalink to this definition"></a></dt>
+<dd><p>sauceCost - Returns the cost of the selected sauces</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>self</strong> (<a class="reference internal" href="#pizza.Pizza" title="pizza.Pizza"><em>Pizza</em></a>) – self Handle for object</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cost of sauces</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="pizza.Pizza.toppingCost">
+<span class="sig-name descname"><span class="pre">toppingCost</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pizza.Pizza.toppingCost" title="Permalink to this definition"></a></dt>
+<dd><p>topppingCost - Returns the cost of the selected toppings</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>self</strong> (<a class="reference internal" href="#pizza.Pizza" title="pizza.Pizza"><em>Pizza</em></a>) – self Handle for object</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Cost of toppings</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>int</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-test_order"></span><p>test_order - Unit tests for order.py</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="test_order.example_order">
+<span class="sig-prename descclassname"><span class="pre">test_order.</span></span><span class="sig-name descname"><span class="pre">example_order</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_order.example_order" title="Permalink to this definition"></a></dt>
+<dd><p>example_order - Reference order for testing</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Sample order</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p><a class="reference internal" href="#order.Order" title="order.Order">Order</a></p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="test_order.test_input_pizza">
+<span class="sig-prename descclassname"><span class="pre">test_order.</span></span><span class="sig-name descname"><span class="pre">test_input_pizza</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">example_order</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#test_order.test_input_pizza" title="Permalink to this definition"></a></dt>
+<dd><p>test_input_pizza - Tests that input_pizza works accordingly</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>example_order</strong> (<a class="reference internal" href="#order.Order" title="order.Order"><em>Order</em></a>) – Example order used for testing</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>N/A</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Null</p>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>AssertionError</strong> – Inputing pizza did not work</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="test_order.test_order_init">
+<span class="sig-prename descclassname"><span class="pre">test_order.</span></span><span class="sig-name descname"><span class="pre">test_order_init</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_order.test_order_init" title="Permalink to this definition"></a></dt>
+<dd><p>test_order_init - Tests to ensure constructor for Order class works</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>N/A</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>Null</p>
+</dd>
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>AssertionError</strong> – Initializing order did not work</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="test_order.test_order_paid">
+<span class="sig-prename descclassname"><span class="pre">test_order.</span></span><span class="sig-name descname"><span class="pre">test_order_paid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">example_order</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#test_order.test_order_paid" title="Permalink to this definition"></a></dt>
+<dd><p>test_order_paid - Ensures that order_paid function works as intended</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>example_order</strong> (<a class="reference internal" href="#order.Order" title="order.Order"><em>Order</em></a>) – Example order used for testing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="test_order.test_order_str">
+<span class="sig-prename descclassname"><span class="pre">test_order.</span></span><span class="sig-name descname"><span class="pre">test_order_str</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">example_order</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#test_order.test_order_str" title="Permalink to this definition"></a></dt>
+<dd><p>test_order_str - Tests to ensure string representation of Order class is working</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>example_order</strong> (<a class="reference internal" href="#order.Order" title="order.Order"><em>Order</em></a>) – Example order used for testing</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>N/A</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Null</p>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>AssertionError</strong> – Inputing pizza did not work</p>
+</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-test_pizza"></span><p>test_pizza - Unit tests for pizza.py</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="test_pizza.example_pizza">
+<span class="sig-prename descclassname"><span class="pre">test_pizza.</span></span><span class="sig-name descname"><span class="pre">example_pizza</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#test_pizza.example_pizza" title="Permalink to this definition"></a></dt>
+<dd><p>example_pizza - Reference Pizza for class testing</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="test_pizza.test_pizza_init">
+<span class="sig-prename descclassname"><span class="pre">test_pizza.</span></span><span class="sig-name descname"><span class="pre">test_pizza_init</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">example_pizza</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#test_pizza.test_pizza_init" title="Permalink to this definition"></a></dt>
+<dd><p>test_pizza_init - Ensures Pizza constructor works as intended</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>example_pizza</strong> (<a class="reference internal" href="#pizza.Pizza" title="pizza.Pizza"><em>Pizza</em></a>) – Sample pizza used for tesing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="test_pizza.test_pizza_str">
+<span class="sig-prename descclassname"><span class="pre">test_pizza.</span></span><span class="sig-name descname"><span class="pre">test_pizza_str</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">example_pizza</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#test_pizza.test_pizza_str" title="Permalink to this definition"></a></dt>
+<dd><p>test_pizza_str - Ensures string representation of pizza class works as intended</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>example_pizza</strong> (<a class="reference internal" href="#pizza.Pizza" title="pizza.Pizza"><em>Pizza</em></a>) – Sample pizza used for tesing</p>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="toctree-wrapper compound">
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Matthew Villemarette.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
